@@ -3,7 +3,7 @@ type ButtonProps = {
 };
 
 const Button = ({ onClick }: ButtonProps) => {
-  return <div className="button" onClick={onClick}></div>;
+  return <div className="button" onClick={onClick}>ADD</div>;
 };
 
 export default Button;
