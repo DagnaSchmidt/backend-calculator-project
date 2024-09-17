@@ -4,7 +4,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  background-color: lightblue;
+  background-color: darkgray;
 }
 
 a {
@@ -12,14 +12,15 @@ a {
 }
 
 .calculator {
-  background-color: darkgray;
-  width: 130px;
+  background-color: lightgray;
+  width: 160px;
   padding: 30px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 60px;
+  gap: 12px;
 }
 
 input {
